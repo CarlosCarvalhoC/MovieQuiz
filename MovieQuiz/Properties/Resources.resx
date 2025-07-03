@@ -1,0 +1,802 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Alice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Alice in Wonderland\Alice1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alice2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Alice in Wonderland\Alice2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alice3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Alice in Wonderland\Alice3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alice4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Alice in Wonderland\Alice4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrival1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Arrival\Arrival1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrival2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Arrival\Arrival2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrival3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Arrival\Arrival3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrival4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Arrival\Arrival4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Avatar\Avatar1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Avatar\Avatar2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Avatar\Avatar3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Avatar\Avatar4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvengersEndgame1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Avengers - Endgame\AvengersEndgame1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvengersEndgame2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Avengers - Endgame\AvengersEndgame2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvengersEndgame3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Avengers - Endgame\AvengersEndgame3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvengersEndgame4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Avengers - Endgame\AvengersEndgame4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BladeRunnerTwo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Blade Runner 2049\BladeRunnerTwo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BladeRunnerTwo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Blade Runner 2049\BladeRunnerTwo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BladeRunnerTwo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Blade Runner 2049\BladeRunnerTwo3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BladeRunnerTwo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Blade Runner 2049\BladeRunnerTwo4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bride1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Princess Bride\Bride1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bride2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Princess Bride\Bride2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bride3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Princess Bride\Bride3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bride4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Princess Bride\Bride4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CasinoRoyale1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Casino Royale\CasinoRoyale1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CasinoRoyale2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Casino Royale\CasinoRoyale2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CasinoRoyale3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Casino Royale\CasinoRoyale3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CasinoRoyale4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Casino Royale\CasinoRoyale4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Christmas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\The Nighmare Before Christmas\Christmas1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Christmas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\The Nighmare Before Christmas\Christmas2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Christmas3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\The Nighmare Before Christmas\Christmas3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Christmas4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\The Nighmare Before Christmas\Christmas4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coco1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Coco\Coco1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coco2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Coco\Coco2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coco3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Coco\Coco3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coco4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Coco\Coco4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Compass1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Golden Compass\Compass1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Compass2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Golden Compass\Compass2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Compass3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Golden Compass\Compass3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Compass4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Golden Compass\Compass4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Conjuring1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\The Conjuring\Conjuring1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Conjuring2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\The Conjuring\Conjuring2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Conjuring3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\The Conjuring\Conjuring3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Conjuring4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\The Conjuring\Conjuring4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corpse1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\The Corpse Bride\Corpse1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corpse2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\The Corpse Bride\Corpse2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corpse3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\The Corpse Bride\Corpse3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corpse4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\The Corpse Bride\Corpse4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="correct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\correct.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DieHard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Die Hard\DieHard1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DieHard2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Die Hard\DieHard2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DieHard3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Die Hard\DieHard3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DieHard4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Die Hard\DieHard4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dune1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Dune\Dune1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dune2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Dune\Dune2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dune3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Dune\Dune3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dune4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Dune\Dune4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Encanto1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Encanto\Encanto1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Encanto2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Encanto\Encanto2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Encanto3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Encanto\Encanto3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Encanto4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Encanto\Encanto4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExMachina1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Ex Machina\ExMachina1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExMachina2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Ex Machina\ExMachina2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExMachina3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Ex Machina\ExMachina3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExMachina4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Ex Machina\ExMachina4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exorcist1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\The Exorcist\Exorcist1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exorcist2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\The Exorcist\Exorcist2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exorcist3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\The Exorcist\Exorcist3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exorcist4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\The Exorcist\Exorcist4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GetOut1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Get Out\GetOut1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GetOut2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Get Out\GetOut2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GetOut3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Get Out\GetOut3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GetOut4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Get Out\GetOut4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gladiator1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Gladiator\Gladiator1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gladiator2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Gladiator\Gladiator2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gladiator3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Gladiator\Gladiator3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gladiator4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Gladiator\Gladiator4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Halloween1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Halloween\Halloween1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Halloween2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Halloween\Halloween2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Halloween3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Halloween\Halloween3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Halloween4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Halloween\Halloween4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hereditary1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Hereditary\Hereditary1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hereditary2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Hereditary\Hereditary2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hereditary3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Hereditary\Hereditary3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hereditary4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Hereditary\Hereditary4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HocusPocus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Hocus Pocus\HocusPocus1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HocusPocus2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Hocus Pocus\HocusPocus2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HocusPocus3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Hocus Pocus\HocusPocus3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HocusPocus4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Hocus Pocus\HocusPocus4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hotel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Hotel Transylvania\Hotel1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hotel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Hotel Transylvania\Hotel2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hotel3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Hotel Transylvania\Hotel3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hotel4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Hotel Transylvania\Hotel4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Impossible1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Impossible1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Impossible2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Impossible2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Impossible3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Impossible3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Impossible4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Impossible4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Interstellar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Interstellar\Interstellar1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Interstellar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Interstellar\Interstellar2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Interstellar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Interstellar\Interstellar3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Interstellar4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Interstellar\Interstellar4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="It1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\It\It1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="It2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\It\It2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="It3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\It\It3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="It4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\It\It4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JohnWick1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JohnWick1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JohnWick2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JohnWick2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JohnWick3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JohnWick3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JohnWick4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JohnWick4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JurassicPark1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Jurassic Park\JurassicPark1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JurassicPark2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Jurassic Park\JurassicPark2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JurassicPark3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Jurassic Park\JurassicPark3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JurassicPark4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Jurassic Park\JurassicPark4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KickAss1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KickAss1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KickAss2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KickAss2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KickAss3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KickAss3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KickAss4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KickAss4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kubo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Kubo and the Two Strings\Kubo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kubo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Kubo and the Two Strings\Kubo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kubo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Kubo and the Two Strings\Kubo3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kubo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Kubo and the Two Strings\Kubo4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MadMaxFuryRoad1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Mad Max - Fury Road\MadMaxFuryRoad1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MadMaxFuryRoad2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Mad Max - Fury Road\MadMaxFuryRoad2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MadMaxFuryRoad3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Mad Max - Fury Road\MadMaxFuryRoad3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MadMaxFuryRoad4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\Mad Max - Fury Road\MadMaxFuryRoad4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maleficent1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Maleficent\Maleficent1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maleficent2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Maleficent\Maleficent2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maleficent3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Maleficent\Maleficent3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maleficent4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Maleficent\Maleficent4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Martian1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\The Martian\Martian1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Martian2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\The Martian\Martian2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Martian3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\The Martian\Martian3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Martian4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\The Martian\Martian4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matrix1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\The Matrix\Matrix1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matrix2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\The Matrix\Matrix2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matrix3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\The Matrix\Matrix3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matrix4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\The Matrix\Matrix4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Narnia1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Chronicles of Narnia - The Lion, the Witch, and the Wardrobe\Narnia1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Narnia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Chronicles of Narnia - The Lion, the Witch, and the Wardrobe\Narnia2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Narnia3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Chronicles of Narnia - The Lion, the Witch, and the Wardrobe\Narnia3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Narnia4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Chronicles of Narnia - The Lion, the Witch, and the Wardrobe\Narnia4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nightmare1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\A Nightmare on Elm Street\Nightmare1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nightmare2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\A Nightmare on Elm Street\Nightmare2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nightmare3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\A Nightmare on Elm Street\Nightmare3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nightmare4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\A Nightmare on Elm Street\Nightmare4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Pan’s Labyrinth\Pan1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pan2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Pan’s Labyrinth\Pan2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pan3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Pan’s Labyrinth\Pan3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pan4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Pan’s Labyrinth\Pan4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paranormal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Paranormal Activity\Paranormal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paranormal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Paranormal Activity\Paranormal2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paranormal3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Paranormal Activity\Paranormal3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paranormal4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Paranormal Activity\Paranormal4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Percy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Percy Jackson\Percy1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Percy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Percy Jackson\Percy2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Percy3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Percy Jackson\Percy3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Percy4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Percy Jackson\Percy4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pilgrim1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pilgrim1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pilgrim2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pilgrim2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pilgrim3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pilgrim3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pilgrim4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pilgrim4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Harry Potter and the Sorcerer’s Stone\Potter1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potter2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Harry Potter and the Sorcerer’s Stone\Potter2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potter3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Harry Potter and the Sorcerer’s Stone\Potter3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potter4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\Harry Potter and the Sorcerer’s Stone\Potter4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Puss1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Puss in Boots\Puss1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Puss2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Puss in Boots\Puss2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Puss3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Puss in Boots\Puss3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Puss4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Puss in Boots\Puss4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PussTwo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Puss in Boots - The Last Wish\PussTwo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PussTwo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Puss in Boots - The Last Wish\PussTwo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PussTwo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Puss in Boots - The Last Wish\PussTwo3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PussTwo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Puss in Boots - The Last Wish\PussTwo4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rings1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Lord of the Rings - The Fellowship of the Ring\Rings1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rings2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Lord of the Rings - The Fellowship of the Ring\Rings2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rings3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Lord of the Rings - The Fellowship of the Ring\Rings3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rings4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fantasy\The Lord of the Rings - The Fellowship of the Ring\Rings4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scream1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Scream\Scream1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scream2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Scream\Scream2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scream3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Scream\Scream3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scream4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\Scream\Scream4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shining1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\The Shining\Shining.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shining2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\The Shining\Shining2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shining3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\The Shining\Shining3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shining4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Horror\The Shining\Shining4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shrek1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek\Shrek1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shrek2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek\Shrek2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shrek3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek\Shrek3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shrek4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek\Shrek4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShrekFour1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek Forever After\ShrekFour1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShrekFour2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek Forever After\ShrekFour2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShrekFour3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek Forever After\ShrekFour3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShrekFour4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek Forever After\ShrekFour4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShrekThree1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek the Third\ShrekThree1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShrekThree2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek the Third\ShrekThree2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShrekThree3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek the Third\ShrekThree3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShrekThree4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek the Third\ShrekThree4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShrekTwo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek 2\ShrekTwo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShrekTwo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek 2\ShrekTwo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShrekTwo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek 2\ShrekTwo3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShrekTwo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Shrek\Shrek 2\ShrekTwo4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarWars1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Star Wars - A New Hope\StarWars1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarWars2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Star Wars - A New Hope\StarWars2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarWars3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Star Wars - A New Hope\StarWars3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarWars4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sci Fi\Star Wars - A New Hope\StarWars4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheDarkKnight1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\The Dark Knight\TheDarkKnight1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheDarkKnight2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\The Dark Knight\TheDarkKnight2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheDarkKnight3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\The Dark Knight\TheDarkKnight3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheDarkKnight4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Action\The Dark Knight\TheDarkKnight4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Totoro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\My Neighbour Totoro\Totoro1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Totoro2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\My Neighbour Totoro\Totoro2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Totoro3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\My Neighbour Totoro\Totoro3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Totoro4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\My Neighbour Totoro\Totoro4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Up\Up1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Up\Up2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Up\Up3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Up\Up4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wall_E1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Wall-E\Wall-E1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wall_E2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Wall-E\Wall-E2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wall_E3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Wall-E\Wall-E3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wall_E4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\Wall-E\Wall-E4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wind1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\The Wind Rises\Wind1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wind2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\The Wind Rises\Wind2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wind3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\The Wind Rises\Wind3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wind4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Animation\The Wind Rises\Wind4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wrong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wrong.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

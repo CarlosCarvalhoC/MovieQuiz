@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C299533F-E53E-402F-873B-31DEC9168597}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MovieQuiz</RootNamespace>
+    <AssemblyName>MovieQuiz</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieLibrary.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TitleScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TitleScreen.Designer.cs">
+      <DependentUpon>TitleScreen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TitleScreen.resx">
+      <DependentUpon>TitleScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Avengers - Endgame\AvengersEndgame1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Avengers - Endgame\AvengersEndgame2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Avengers - Endgame\AvengersEndgame3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Avengers - Endgame\AvengersEndgame4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Casino Royale\CasinoRoyale1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Casino Royale\CasinoRoyale2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Casino Royale\CasinoRoyale3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Casino Royale\CasinoRoyale4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Die Hard\DieHard1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Die Hard\DieHard2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Die Hard\DieHard3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Die Hard\DieHard4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Gladiator\Gladiator1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Gladiator\Gladiator2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Gladiator\Gladiator3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Gladiator\Gladiator4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Mad Max - Fury Road\MadMaxFuryRoad1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Mad Max - Fury Road\MadMaxFuryRoad2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Mad Max - Fury Road\MadMaxFuryRoad3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\Mad Max - Fury Road\MadMaxFuryRoad4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\The Dark Knight\TheDarkKnight1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\The Dark Knight\TheDarkKnight2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\The Dark Knight\TheDarkKnight3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action\The Dark Knight\TheDarkKnight4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Coco\Coco1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Coco\Coco2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Coco\Coco3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Coco\Coco4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Encanto\Encanto1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Encanto\Encanto2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Encanto\Encanto3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Encanto\Encanto4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Hotel Transylvania\Hotel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Hotel Transylvania\Hotel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Hotel Transylvania\Hotel3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Hotel Transylvania\Hotel4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Kubo and the Two Strings\Kubo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Kubo and the Two Strings\Kubo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Kubo and the Two Strings\Kubo3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Kubo and the Two Strings\Kubo4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\My Neighbour Totoro\Totoro1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\My Neighbour Totoro\Totoro2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\My Neighbour Totoro\Totoro3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\My Neighbour Totoro\Totoro4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\The Corpse Bride\Corpse1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\The Corpse Bride\Corpse2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\The Corpse Bride\Corpse3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\The Corpse Bride\Corpse4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\The Nighmare Before Christmas\Christmas1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\The Nighmare Before Christmas\Christmas2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\The Nighmare Before Christmas\Christmas3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\The Nighmare Before Christmas\Christmas4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\The Wind Rises\Wind1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\The Wind Rises\Wind2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\The Wind Rises\Wind3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\The Wind Rises\Wind4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Up\Up1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Up\Up2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Up\Up3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Up\Up4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Wall-E\Wall-E1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Wall-E\Wall-E2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Wall-E\Wall-E3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Animation\Wall-E\Wall-E4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Alice in Wonderland\Alice1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Alice in Wonderland\Alice2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Alice in Wonderland\Alice3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Alice in Wonderland\Alice4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Harry Potter and the Sorcerer’s Stone\Potter1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Harry Potter and the Sorcerer’s Stone\Potter2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Harry Potter and the Sorcerer’s Stone\Potter3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Harry Potter and the Sorcerer’s Stone\Potter4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Hocus Pocus\HocusPocus1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Hocus Pocus\HocusPocus2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Hocus Pocus\HocusPocus3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Hocus Pocus\HocusPocus4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Maleficent\Maleficent1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Maleficent\Maleficent2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Maleficent\Maleficent3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Maleficent\Maleficent4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Pan’s Labyrinth\Pan1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Pan’s Labyrinth\Pan2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Pan’s Labyrinth\Pan3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Pan’s Labyrinth\Pan4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Percy Jackson\Percy1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Percy Jackson\Percy2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Percy Jackson\Percy3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\Percy Jackson\Percy4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Chronicles of Narnia - The Lion, the Witch, and the Wardrobe\Narnia1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Chronicles of Narnia - The Lion, the Witch, and the Wardrobe\Narnia2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Chronicles of Narnia - The Lion, the Witch, and the Wardrobe\Narnia3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Chronicles of Narnia - The Lion, the Witch, and the Wardrobe\Narnia4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Golden Compass\Compass1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Golden Compass\Compass2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Golden Compass\Compass3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Golden Compass\Compass4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Lord of the Rings - The Fellowship of the Ring\Rings1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Lord of the Rings - The Fellowship of the Ring\Rings2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Lord of the Rings - The Fellowship of the Ring\Rings3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Lord of the Rings - The Fellowship of the Ring\Rings4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Princess Bride\Bride1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Princess Bride\Bride2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Princess Bride\Bride3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Fantasy\The Princess Bride\Bride4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\A Nightmare on Elm Street\Nightmare1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\A Nightmare on Elm Street\Nightmare2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\A Nightmare on Elm Street\Nightmare3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\A Nightmare on Elm Street\Nightmare4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Get Out\GetOut1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Get Out\GetOut2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Get Out\GetOut3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Get Out\GetOut4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Halloween\Halloween1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Halloween\Halloween2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Halloween\Halloween3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Halloween\Halloween4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Hereditary\Hereditary1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Hereditary\Hereditary2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Hereditary\Hereditary3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Hereditary\Hereditary4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\It\It1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\It\It2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\It\It3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\It\It4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Paranormal Activity\Paranormal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Paranormal Activity\Paranormal2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Paranormal Activity\Paranormal3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Paranormal Activity\Paranormal4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Scream\Scream1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Scream\Scream2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Scream\Scream3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\Scream\Scream4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\The Conjuring\Conjuring1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\The Conjuring\Conjuring2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\The Conjuring\Conjuring3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\The Conjuring\Conjuring4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\The Exorcist\Exorcist1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\The Exorcist\Exorcist2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\The Exorcist\Exorcist3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\The Exorcist\Exorcist4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\The Shining\Shining.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\The Shining\Shining2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\The Shining\Shining3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Horror\The Shining\Shining4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Arrival\Arrival1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Arrival\Arrival2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Arrival\Arrival3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Arrival\Arrival4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Avatar\Avatar1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Avatar\Avatar2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Avatar\Avatar3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Avatar\Avatar4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Blade Runner 2049\BladeRunnerTwo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Blade Runner 2049\BladeRunnerTwo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Blade Runner 2049\BladeRunnerTwo3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Blade Runner 2049\BladeRunnerTwo4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Dune\Dune1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Dune\Dune2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Dune\Dune3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Dune\Dune4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Ex Machina\ExMachina1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Ex Machina\ExMachina2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Ex Machina\ExMachina3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Ex Machina\ExMachina4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Interstellar\Interstellar1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Interstellar\Interstellar2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Interstellar\Interstellar3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Interstellar\Interstellar4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Jurassic Park\JurassicPark1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Jurassic Park\JurassicPark2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Jurassic Park\JurassicPark3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Jurassic Park\JurassicPark4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Star Wars - A New Hope\StarWars1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Star Wars - A New Hope\StarWars2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Star Wars - A New Hope\StarWars3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\Star Wars - A New Hope\StarWars4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\The Martian\Martian1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\The Martian\Martian2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\The Martian\Martian3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\The Martian\Martian4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\The Matrix\Matrix1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\The Matrix\Matrix2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\The Matrix\Matrix3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Sci Fi\The Matrix\Matrix4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Puss in Boots\Puss1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Puss in Boots\Puss2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Puss in Boots\Puss3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Puss in Boots\Puss4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Puss in Boots - The Last Wish\PussTwo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Puss in Boots - The Last Wish\PussTwo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Puss in Boots - The Last Wish\PussTwo3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Puss in Boots - The Last Wish\PussTwo4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek\Shrek1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek\Shrek2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek\Shrek3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek\Shrek4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek 2\ShrekTwo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek 2\ShrekTwo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek 2\ShrekTwo3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek 2\ShrekTwo4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek Forever After\ShrekFour1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek Forever After\ShrekFour2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek Forever After\ShrekFour3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek Forever After\ShrekFour4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek the Third\ShrekThree1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek the Third\ShrekThree2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek the Third\ShrekThree3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Shrek\Shrek the Third\ShrekThree4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrong.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correct.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Impossible1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Impossible2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Impossible3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Impossible4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JohnWick1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JohnWick2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JohnWick3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JohnWick4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KickAss1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KickAss2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KickAss3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KickAss4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pilgrim1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pilgrim2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pilgrim3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pilgrim4.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
